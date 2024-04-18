@@ -1,4 +1,8 @@
 package Model;
+
+
+
+
 /**
  * This is a class that models a Message.
  *
@@ -14,15 +18,18 @@ public class Message {
      * The id for the user who has posted this message. We will assume that this is provided by the front-end of this
      * application.
      */
+   
     public int posted_by;
     /**
      * The text for this message- eg "this is my first post!". Must be not blank and under 255 characters
      */
+    
     public String message_text;
     /**
      * The epoch time when this tweet was posted (number of seconds since Jan 1, 1970). Longs are large enough
      * to store this number. We will assume that this number is provided by the front-end of this application.
      */
+   
     public long time_posted_epoch;
     /**
      * A default, no-args constructor, as well as correctly formatted getters and setters, are needed for
